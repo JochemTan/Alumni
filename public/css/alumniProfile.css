@@ -1,0 +1,125 @@
+body {
+    margin-top: 0px !important;
+}
+
+img {
+    /*border: 1px solid black;*/
+    max-width: 150px !important;
+    border-radius: 5px;
+}
+
+.alumnusProfile p {
+    margin-bottom: 25px;
+    background-color: #f1f5f6;
+    padding: 10px;
+    border-radius: 2px;
+    min-height: 40px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+.alumnusProfile input {
+    all: unset;
+    margin-bottom: 25px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #9fcad4;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    width: 95%;
+}
+
+.profile {
+    border: unset;
+    min-height: 32px;
+    width: 100%;
+    border-radius: 2px;
+    color: white;
+}
+
+.profile-blue {
+    background: rgba(0, 70, 133, 1);
+}
+
+.profile-blue:hover {
+    color: white;
+    background: rgba(0, 70, 133, 0.8);
+}
+
+.profile-green {
+    background: rgba(94, 186, 125, 1)
+}
+
+.profile-green:hover {
+    color: white;
+    background: rgba(94, 186, 125, 0.8);
+}
+
+label.input input[type="file"] {
+    display: none;
+}
+/* Setting switches */
+.labeltext{
+    display: inline-block;
+
+}
+.material-switch{
+    display: inline;
+    margin-left: 30px;
+}
+.material-switch > input[type="checkbox"] {
+    display: none;   
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 40px;  
+}
+
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+.checkers{
+    margin-top: 10px;
+}
+.ion-checkmark-round{
+    color: green;
+    font-size: 14pt;
+}
+.ion-close-round{
+    color: red;
+    font-size: 14pt;
+}

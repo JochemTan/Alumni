@@ -1,0 +1,134 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+	height: 70px;
+	background-color: #fafafa;
+	border-radius: 0;
+}
+.navbar-nav{
+	margin-top: 10px;
+}
+.logo{
+	height: 34px;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #004685;
+	font-family: 'Open Sans', sans-serif;
+}
+.navbar-text{
+	font-family: 'Open Sans', sans-serif;
+}
+.profile-image{
+	height: 50px;
+	display: inline;
+	border-radius: 50px;
+}
+.dropdown-toggle{
+	display: inline;
+}
+.navbar-form{
+	margin-top: 17px;
+}
+.pnl{
+	display: inline-block;
+	background-color: white;
+	padding: 7px;
+	width:500px;
+	margin-top: -3px;
+	box-shadow: rgba(0,0,0,0.2) 0 1px 2px 0;
+	/*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
+}
+
+.pnl input{
+	width: 100%;
+	padding: 5px;
+	border: none;
+}
+.pnl input:focus{
+	outline: none;
+}
+.slctpnl{
+	/*width: 100px;*/
+	background-color: white;
+	display: inline-block;
+	padding: 12px;
+	border: none;
+	box-shadow: rgba(0,0,0,0.2) 0 1px 2px 0;
+}
+.slctpnl:hover{
+	cursor: pointer;
+}
+.slctpnl p{
+	display: inline;
+	margin-right: 1rem;
+}
+.slctpnl i{
+	float: right;
+}
+.navbar-form{
+	margin-top: 13px;
+}
+.filterlist{
+	display: none;
+	margin-top: 6px;
+	background-color: white;
+	box-shadow: rgba(0,0,0,0.2) 0 1px 4px 0;
+	padding: 10px;
+	position: absolute;
+	z-index: 999;
+}
+
+#navContainer{
+	background-color: #fafafa;
+}
+@media screen and (max-width: 767px)
+{
+	.navbar-collapse{
+		border-top: none;
+		margin-top: 20px;
+		background-color: #fafafa;
+	}
+	.pnl{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1210px) {
+    .pnl {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .pnl {
+        width: 300px;
+    }
+    .filterlist
+    {
+    	width:300px;
+    }
+}
+@media screen and (max-width: 963px) {
+    .pnl {
+        width: 200px;
+    }
+}
+@media screen and (max-width: 862px) {
+	.pnl {
+		width: 150px;
+	}
+}
+@media screen and (max-width: 813px) {
+	.pnl {
+		width: 100px;
+	}
+}
+@media screen and (max-width: 767px) {
+    .pnl {
+        width: 85%;
+    }
+}

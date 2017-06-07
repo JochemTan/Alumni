@@ -1,0 +1,62 @@
+.container {
+    margin-top: 140px;
+    width: 90%;
+}
+
+.alumnus {
+    /*background-color: rgba(59, 89, 152, .9);*/
+    /*box-shadow: 2px 2px 8px 0px rgba(50, 50, 50, 0.5);*/
+    background-color: #EFF0F2;
+    text-align: center;
+    padding: 10px;
+    margin: 0px auto;
+    /*border-radius:5px;*/
+    /*height: 300px;*/
+}
+
+.alumnus a:hover {
+    all: unset;
+}
+
+.alumnus img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50% !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.alumnus p {
+    font-weight: 400;
+    font-family: 'lato', sans-serif;
+    font-size: 15px;
+    white-space: nowrap;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.alumnus p.name {
+    color: black;
+    font-size: 14pt;
+    font-weight: 700;
+}
+
+.alumnus button{
+    margin-top: 20px;
+    border:none;
+    background-color:#34495E;
+    width:60%;
+    color:white;
+    padding:10px;
+    border-radius: 5px;
+    font-weight:100;
+    font-size:16px;
+}
+.clearfix{
+    clear:both;
+}
+.alumnus .year{
+    margin-bottom:-7px;
+    margin-top: 15px;
+}

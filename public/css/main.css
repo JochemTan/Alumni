@@ -1,0 +1,112 @@
+body {
+    font-family: 'Lato';
+    /*margin-top: 100px !important;*/
+    /*margin-top: 14rem;*/
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+#header {
+    background: white;
+    padding-top: 1rem;
+    border-bottom: solid #e6e6e6 1px;
+}
+
+.navbar-right {
+    width: auto;
+}
+
+.flex-row {
+    display: inline-flex;
+}
+.flex-row-space {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/*.form-control {
+    height: 5rem;
+}*/
+
+#searchFormHeader {
+    margin: 0;
+}
+
+.nav-tabs {
+    margin-top: 2rem;
+    border: 0;
+}
+
+#filters {
+    padding: 0.5em;
+}
+
+#alumnusButton{
+    font-size: 1.5em;
+    margin: 1rem;
+    padding: 1rem;
+    border: 0;
+    color: white;
+    background-color: #004685;
+}
+#alumnusButton:hover{
+    background-color: #1b5385;
+}
+#employeeButton
+{
+    font-size: 1.5em;
+    margin: 1rem;
+    padding: 1rem;
+    border: 0;
+    color: white;
+    background-color: #d78b00;
+}
+#employeeButton:hover{
+    background-color: #d4962a;
+}
+
+.navbar-inverse{
+    padding: 0.5rem;
+    border: none;
+}
+
+.ckbox {
+    position: relative;
+}
+.ckbox input[type="checkbox"] {
+    opacity: 0;
+}
+.ckbox label {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.ckbox label:before {
+    content: '';
+    top: 1px;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    border-radius: 2px;
+    border: 1px solid #bbb;
+    background-color: #fff;
+}
+.ckbox input[type="checkbox"]:checked + label:before {
+    border-color: #2BBCDE;
+    background-color: #2BBCDE;
+}
+.ckbox input[type="checkbox"]:checked + label:after {
+    top: 3px;
+    left: 3.5px;
+    content: '\e013';
+    color: #fff;
+    font-size: 11px;
+    font-family: 'Glyphicons Halflings';
+    position: absolute;
+}

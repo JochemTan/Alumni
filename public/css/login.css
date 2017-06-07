@@ -1,0 +1,71 @@
+fieldset{
+	width:350px;
+	margin: 0px auto;
+	border: none;
+}
+.logo{
+	display: block;
+	margin: 0px auto;
+	width: 100%;
+	margin-bottom: 24px;
+}
+.content p{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	
+	letter-spacing: .2px;
+}
+.content{
+	width: 300px;
+	margin: 0px auto;
+}
+.loginfield label{
+	display: block;
+	color: #484848;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	padding-bottom: 10px;
+	width: 100%;
+	font-size: 17px;
+}
+fieldset input[type=email],input[type=password]{
+	display: inline-block;
+	height: 52px;
+	width: 100%;
+	line-height: 20px;
+	padding: 0 15px;
+	/*margin-left: 10px;*/
+	font-family:'Open Sans', sans-serif;
+	font-size: 17px;
+	border: 2px solid #c9c9c9;
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+input[type=email]:focus,input[type=password]:focus{
+	outline: none;
+}
+input[type=submit]{
+	border: 1px solid #004685;
+	height: 48px;
+	width: 100%;
+	border-radius: 3px;
+	color: white;
+	background-color: #004685;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.has-error .form-control{
+	border-color: #a94442;
+}
+.alert{
+	color: #85a985;
+	font-family: 'montserrat';
+	font-weight: 400;
+}
+.header {
+	text-align: center;
+	margin-bottom: 30px;
+}

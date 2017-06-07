@@ -1,0 +1,13 @@
+body{
+	margin-top: 140px !important;
+}
+.nav-tabs{
+    margin: 0;
+}
+#tabHeader{
+    background-color: #fafafa;
+}
+#tabs{
+    margin-top: 0;
+    padding-top: 0.5em;
+}
